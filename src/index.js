@@ -4,5 +4,5 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App subreddit="redcarpet"/>, document.getElementById('root'));
+ReactDOM.render(<App subreddit="todos"/>, document.getElementById('root'));
 registerServiceWorker();
